@@ -3,6 +3,7 @@ import React from 'react';
 import { AppProps } from 'next/app';
 
 import '../styles/main.css';
+import '../styles/tailwind.css';
 
 // eslint-disable-next-line react/jsx-props-no-spreading
 const MyApp = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />;
